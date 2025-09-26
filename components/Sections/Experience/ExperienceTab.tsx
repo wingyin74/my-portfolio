@@ -30,14 +30,14 @@ const ExperienceTab = () => {
   const activeBordercolor = useColorModeValue('teal.500', '#97DFFC')
   const isMobile = useBreakpointValue(mobileBreakpointsMap)
 
-  const tabOrientation =
+  const tabOrientation : "horizontal" | "vertical" =
     useBreakpointValue({
       base: 'horizontal',
       sm: 'horizontal',
       md: 'vertical',
       lg: 'vertical',
       xl: 'vertical',
-    }) ?? ('vertical' as any)
+    }) ?? 'vertical'
 
   const tabMinWidth = useBreakpointValue({
     base: '160px',
@@ -79,7 +79,6 @@ const ExperienceTab = () => {
               }
               alt={company.longName}
               maxWidth="88px"
-              fallback={<Skeleton height="100%" width="100%" />}
             ></Image>
           </Tab>
         ))}

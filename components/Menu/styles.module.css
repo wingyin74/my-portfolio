@@ -1,10 +1,9 @@
-
-
 .menu{
   position: fixed;
   top:0;
   right: 3.5%;
   z-index: 1;
+  background-color: rgb(18, 18, 18) !important;
 }
 .mobileMenuContainer{
   position: fixed;

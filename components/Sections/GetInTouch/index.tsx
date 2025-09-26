@@ -66,7 +66,7 @@ const GetInTouch = () => {
         .
       </Text>
 
-      <Box
+      <Stack
         spacing={0.5}
         textAlign="center"
         fontFamily="monospace"
@@ -87,7 +87,7 @@ const GetInTouch = () => {
             KL Lawingco <Icon as={RiCopyleftLine} /> 2021
           </Text>
         </Link>
-      </Box>
+      </Stack>
     </Stack>
   )
 }

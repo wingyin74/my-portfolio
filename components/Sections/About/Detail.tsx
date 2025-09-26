@@ -13,13 +13,13 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react'
 import {
-  SiDotNet,
+  SiDotnet,
   SiJavascript,
   SiTypescript,
   SiGraphql,
   SiReact,
-  SiNextDotJs,
-  SiNodeDotJs,
+  SiNextdotjs,
+  SiNodedotjs,
   SiDocker,
 } from 'react-icons/si'
 import { GiCoffeePot } from 'react-icons/gi'
@@ -93,7 +93,7 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             JavaScript (ES6+)
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNodeDotJs} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiNodedotjs} color={emphasis} fontSize="2em" />
             Node.js & Express
           </ListItem>
         </List>
@@ -107,11 +107,11 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             Docker & AWS
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNextDotJs} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiNextdotjs} color={emphasis} fontSize="2em" />
             AI Integration
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiDotNet} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiDotnet} color={emphasis} fontSize="2em" />
             Python & Django
           </ListItem>
         </List>

@@ -24,11 +24,11 @@ const Sidebar = () => {
   const { colorMode } = useColorMode()
   const display = useBreakpointValue({ base: 'none', lg: 'block' })
   const surNameSize = useBreakpointValue({ base: '3xl', md: '4xl' })
-  const MotionHeading = motion(Heading) as any
-  const MotionText = motion(Text) as any
-  const MotionStack = motion(Stack) as any
-  const MotionButton = motion(Button) as any
-  const MotionBox = motion(Box) as any
+  const MotionHeading = motion(Heading)
+  const MotionText = motion(Text)
+  const MotionStack = motion(Stack)
+  const MotionButton = motion(Button)
+  const MotionBox = motion(Box)
 
   return (
     <MotionBox

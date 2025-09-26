@@ -4,7 +4,7 @@ import {
   ChakraTheme,
   ThemeComponentProps,
 } from '@chakra-ui/react'
-import { mode } from '@chakra-ui/theme-tools'
+import { mode, StyleFunctionProps } from '@chakra-ui/theme-tools'
 
 interface IThemeMode {
   Light: ColorMode
@@ -48,7 +48,7 @@ const textVariants = {
     color: mode('teal.500', 'cyan.200')(props),
   }),
   description: (props: ThemeComponentProps<ChakraTheme>) => ({
-    color: mode('gray.800', 'gray.400')(props),
+    color: mode('gray.400', 'gray.800')(props),
   }),
   accent: (props: ThemeComponentProps<ChakraTheme>) => ({
     color: mode('black.400', 'cyan.200')(props),
@@ -67,13 +67,13 @@ const theme = extendTheme({
   styles,
   components: {
     Link: {
-      baseStyle: (props) => ({
+      baseStyle: (props: StyleFunctionProps) => ({
         color: mode('teal.500', 'cyan.200')(props),
       }),
       variants: {
         ...textVariants,
         description: (props: ThemeComponentProps<ChakraTheme>) => ({
-          color: mode('gray.800', 'gray.400')(props),
+          color: mode('gray.400', 'gray.800')(props),
           _hover: {
             color: mode('teal.500', 'cyan.200')(props),
             textDecoration: 'none',
@@ -89,10 +89,10 @@ const theme = extendTheme({
     },
     Button: {
       variants: {
-        outline: (props) => ({
+        outline: (props: StyleFunctionProps) => ({
           borderColor: mode('black.400', 'cyan.200')(props),
         }),
-        outlineAlternative: (props) => ({
+        outlineAlternative: (props: StyleFunctionProps) => ({
           borderWidth: '1px',
           borderRadius: 0,
           borderColor: mode('#595959', 'whiteAlpha.500')(props),
@@ -107,14 +107,14 @@ const theme = extendTheme({
     },
     Icon: {
       variants: {
-        accent: (props) => ({
+        accent: (props: StyleFunctionProps) => ({
           borderColor: mode('gray.800', 'gray.400')(props),
         }),
       },
     },
     Divider: {
       variants: {
-        solid: (props) => ({
+        solid: (props: StyleFunctionProps) => ({
           borderColor: mode('gray.800', 'gray.400')(props),
           marginLeft: 'auto',
           marginRight: 'auto',

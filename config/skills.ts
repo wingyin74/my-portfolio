@@ -1,18 +1,18 @@
 import { IconType } from 'react-icons'
 import {
-  SiDotNet,
+  SiDotnet,
   SiJavascript,
   SiTypescript,
-  SiNodeDotJs,
+  SiNodedotjs,
   SiGraphql,
   SiApollographql,
   SiPhp,
   SiReact,
-  SiNextDotJs,
+  SiNextdotjs,
   SiRedux,
-  SiStyledComponents,
+  SiStyledcomponents,
   SiGhost,
-  SiVueDotJs,
+  SiVuedotjs,
   SiDocker,
   SiGooglecloud,
   SiCpanel,
@@ -23,8 +23,8 @@ import {
   SiMysql,
   SiMongodb,
   SiRedis,
-  SiSocketDotIo,
-  SiMaterialUi,
+  SiSocketdotio,
+  SiMaterialdesign,
   SiFramer,
   SiGit,
   SiGnubash,
@@ -64,7 +64,7 @@ export const Skills: {
     },
     {
       name: 'Next.js',
-      icon: SiNextDotJs,
+      icon: SiNextdotjs,
     },
     {
       name: 'TypeScript',
@@ -76,21 +76,21 @@ export const Skills: {
     },
     {
       name: 'Tailwind CSS',
-      icon: SiStyledComponents,
+      icon: SiStyledcomponents,
     },
     {
       name: 'HTML5 & CSS3',
-      icon: SiMaterialUi,
+      icon: SiMaterialdesign,
     },
   ],
   backend: [
     {
       name: 'Node.js',
-      icon: SiNodeDotJs,
+      icon: SiNodedotjs,
     },
     {
       name: 'Express.js',
-      icon: SiNodeDotJs,
+      icon: SiNodedotjs,
     },
     {
       name: 'Django',
@@ -120,7 +120,7 @@ export const Skills: {
     },
     {
       name: 'Real-time Agents',
-      icon: SiSocketDotIo,
+      icon: SiSocketdotio,
     },
     {
       name: 'ML Integration',
@@ -160,7 +160,7 @@ export const Skills: {
     },
     {
       name: 'Vercel',
-      icon: SiNextDotJs,
+      icon: SiNextdotjs,
     },
     {
       name: 'Docker',
@@ -174,7 +174,7 @@ export const Skills: {
   ui_frameworks: [
     {
       name: 'Tailwind CSS',
-      icon: SiStyledComponents,
+      icon: SiStyledcomponents,
     },
     {
       name: 'Chakra UI',
@@ -182,7 +182,7 @@ export const Skills: {
     },
     {
       name: 'Material UI',
-      icon: SiMaterialUi,
+      icon: SiMaterialdesign,
     },
     {
       name: 'Framer Motion',
@@ -214,7 +214,7 @@ export const Skills: {
     },
     {
       name: 'Performance Optimization',
-      icon: SiNodeDotJs,
+      icon: SiNodedotjs,
     },
     {
       name: 'Responsive Design',

@@ -87,7 +87,7 @@ const SkillSetModal = ({ isOpen, onClose }: ISkillSetModal) => {
       scrollBehavior="inside"
     >
       <ModalOverlay />
-      <ModalContent>
+      <ModalContent bg={{ base: "gray.800" }}>
         <ModalHeader>Full Skill Set List</ModalHeader>
         <ModalCloseButton />
         <ModalBody className={styles.skillModal}>
