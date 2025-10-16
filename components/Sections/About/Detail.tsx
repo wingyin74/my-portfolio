@@ -21,6 +21,8 @@ import {
   SiNextdotjs,
   SiNodedotjs,
   SiDocker,
+  SiPython,
+  SiMlflow,
 } from 'react-icons/si'
 import { GiCoffeePot } from 'react-icons/gi'
 import { IoMdOpen } from 'react-icons/io'
@@ -107,11 +109,11 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             Docker & AWS
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiNextdotjs} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiMlflow} color={emphasis} fontSize="2em" />
             AI Integration
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiDotnet} color={emphasis} fontSize="2em" />
+            <ListIcon as={SiPython} color={emphasis} fontSize="2em" />
             Python & Django
           </ListItem>
         </List>

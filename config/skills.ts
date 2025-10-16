@@ -12,7 +12,6 @@ import {
   SiRedux,
   SiStyledcomponents,
   SiGhost,
-  SiVuedotjs,
   SiDocker,
   SiGooglecloud,
   SiCpanel,
@@ -33,10 +32,40 @@ import {
   SiMicrosoft,
   SiElectron,
   SiPython,
+  SiVuedotjs,
+  SiNuxtdotjs,
+  SiHtml5,
+  SiCss3,
+  SiExpress,
+  SiDjango,
+  SiFlask,
+  SiOpenai,
+  SiChatbot ,
+  SiAutomattic,
+  SiFirebase,
+  SiSupabase,
+  SiAmazonaws,
+  SiVercel,
+  SiTailwindcss,
+  SiChakraui,
+  SiScrumalliance,
+  SiWebpack,
+  SiDatabricks,
+  SiGooglecontaineroptimizedos,
+  SiMaterialdesignicons,
+  SiAntdesign,
+  SiFastapi,
+  SiMakerbot,
+  SiZapier,
+  SiMlflow,
+  SiNetlify,
+  SiRender,
+  SiHeroku,
+  SiOpenaccess,
+  SiGoogleoptimize,
 } from 'react-icons/si'
 import { BsQuestionSquare } from 'react-icons/bs'
 import { AiOutlineAntDesign } from 'react-icons/ai'
-import { FaSourcetree } from 'react-icons/fa'
 import { IoLogoPwa } from 'react-icons/io5'
 
 export type SkillCategory =
@@ -67,6 +96,14 @@ export const Skills: {
       icon: SiNextdotjs,
     },
     {
+      name: 'Vue.js',
+      icon: SiVuedotjs,
+    },
+    {
+      name: 'Nuxt.js',
+      icon: SiNuxtdotjs,
+    },
+    {
       name: 'TypeScript',
       icon: SiTypescript,
     },
@@ -75,12 +112,12 @@ export const Skills: {
       icon: SiJavascript,
     },
     {
-      name: 'Tailwind CSS',
-      icon: SiStyledcomponents,
+      name: 'HTML5',
+      icon: SiHtml5,
     },
     {
-      name: 'HTML5 & CSS3',
-      icon: SiMaterialdesign,
+      name: 'CSS3',
+      icon: SiCss3,
     },
   ],
   backend: [
@@ -90,19 +127,23 @@ export const Skills: {
     },
     {
       name: 'Express.js',
-      icon: SiNodedotjs,
+      icon: SiExpress,
+    },
+    {
+      name: 'Python',
+      icon: SiPython,
     },
     {
       name: 'Django',
-      icon: SiPython,
+      icon: SiDjango,
+    },
+    {
+      name: 'FastAPI',
+      icon: SiFastapi,
     },
     {
       name: 'Flask',
-      icon: SiPython,
-    },
-    {
-      name: 'RESTful APIs',
-      icon: SiGraphql,
+      icon: SiFlask,
     },
     {
       name: 'GraphQL',
@@ -112,11 +153,11 @@ export const Skills: {
   ai_automation: [
     {
       name: 'OpenAI API',
-      icon: BsQuestionSquare,
+      icon: SiOpenai,
     },
     {
       name: 'Chatbot Development',
-      icon: BsQuestionSquare,
+      icon: SiChatbot ,
     },
     {
       name: 'Real-time Agents',
@@ -124,11 +165,19 @@ export const Skills: {
     },
     {
       name: 'ML Integration',
-      icon: BsQuestionSquare,
+      icon: SiMlflow,
     },
     {
       name: 'API Automation',
-      icon: SiGraphql,
+      icon: SiAutomattic,
+    },
+    {
+      name: 'Make',
+      icon: SiMakerbot,
+    },
+    {
+      name: 'Zapier',
+      icon: SiZapier,
     },
   ],
   database: [
@@ -146,21 +195,33 @@ export const Skills: {
     },
     {
       name: 'Firebase',
-      icon: SiGooglecloud,
+      icon: SiFirebase,
     },
     {
       name: 'Supabase',
-      icon: SiPostgresql,
+      icon: SiSupabase,
     },
   ],
   cloud_deployment: [
     {
       name: 'AWS',
-      icon: SiGooglecloud,
+      icon: SiAmazonaws,
+    },
+    {
+      name: 'Netlify',
+      icon: SiNetlify,
+    },
+    {
+      name: 'Render',
+      icon: SiRender,
+    },
+    {
+      name: 'Heroku',
+      icon: SiHeroku,
     },
     {
       name: 'Vercel',
-      icon: SiNextdotjs,
+      icon: SiVercel,
     },
     {
       name: 'Docker',
@@ -174,15 +235,23 @@ export const Skills: {
   ui_frameworks: [
     {
       name: 'Tailwind CSS',
-      icon: SiStyledcomponents,
+      icon: SiTailwindcss,
     },
     {
       name: 'Chakra UI',
-      icon: BsQuestionSquare,
+      icon: SiChakraui,
     },
     {
       name: 'Material UI',
       icon: SiMaterialdesign,
+    },
+    {
+      name: 'Ant Design',
+      icon: SiAntdesign,
+    },
+    {
+      name: 'Styled Component',
+      icon: SiStyledcomponents,
     },
     {
       name: 'Framer Motion',
@@ -200,21 +269,21 @@ export const Skills: {
     },
     {
       name: 'Agile/Scrum',
-      icon: BsQuestionSquare,
+      icon: SiScrumalliance,
     },
     {
       name: 'Webpack',
-      icon: BsQuestionSquare,
+      icon: SiWebpack,
     },
   ],
   other_expertise: [
     {
       name: 'Data Processing',
-      icon: SiPython,
+      icon: SiDatabricks,
     },
     {
       name: 'Performance Optimization',
-      icon: SiNodedotjs,
+      icon: SiGoogleoptimize,
     },
     {
       name: 'Responsive Design',
@@ -222,28 +291,13 @@ export const Skills: {
     },
     {
       name: 'Accessibility',
-      icon: BsQuestionSquare,
+      icon: SiOpenaccess,
     },
   ],
 }
 
-export const splitSkills = (srcArray: Skill[]) => {
-  const arrLength = srcArray.length
-  const isEvenChunk = arrLength % 2 === 0
-
-  let chunk = 4
-  if (isEvenChunk) {
-    chunk = arrLength / 2
-  } else if (arrLength <= 5 && arrLength > 2) {
-    chunk = 3
-  }
-
-  let i = 0
-  let j = 0
-  const temporary = []
-  for (i = 0, j = srcArray.length; i < j; i += chunk) {
-    temporary.push(srcArray.slice(i, i + chunk))
-  }
-  return temporary
-}
+export const splitSkills = (srcArray: Skill[]): Skill[][] => {
+  const middle = Math.ceil(srcArray.length / 2);
+  return [srcArray.slice(0, middle), srcArray.slice(middle)];
+};
 
